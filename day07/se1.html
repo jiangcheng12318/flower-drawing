@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0 user-scale">
+    <title> Document</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: silver url(delores.jpg) center center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .container {
+            padding: 0 20px;
+            border-top: 1px solid transparent;
+            position: absolute;
+            text-align:center;
+            width: calc(100%- 40px);
+            top: 50%;
+            transform: translateY(-50%);
+        }
+       h1{
+           font-size: 100px;
+           color: white;
+           line-height: 90px;
+       }
+       p{
+           font-size: 66px;
+           color: white;
+           line-break: auto;
+       }
+        .btn {
+          width:200px;
+            height: 60px;
+            background-color:#7cacae;
+            color: #fff;
+            font-size: 48px;
+            line-height: 60px;
+            text-align: center;
+            margin:auto;
+            border-radius: 10px;
+        }
+        .btn:hover{
+            background-color:green;
+            transition:1s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Let's start our first page!</h1>
+    <p>欢迎大家来到西部世界主题公园，在这里你可以享受人生最极致的欢愉而不用为此负责，尽情享受吧！</p>
+    <div class="btn">Start</div>
+</div>
+</body>
+</html>
